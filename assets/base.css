@@ -1,0 +1,108 @@
+/* WEB FONT */
+@import url(http://fonts.googleapis.com/css?family=Signika:600|Varela+Round);
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* BASIC */
+body {
+  font: normal 18px/22px "Varela Round", sans-serif;
+  background-color: #e9ffff;
+  color: #2e2e2e;
+}
+h1, h2 {
+  font-family: "Signika", sans-serif;
+  font-weight: 600;
+}
+h1 {
+  font-size: 36px;
+  line-height: 46px;
+  color: #e0e0e0;
+}
+h2 {
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: -20px;
+}
+p {
+  margin: 20px 0;
+}
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+/* LAYOUT */
+.fixed-nav-bar {
+  box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.6);
+}
+
+.content {
+  position: relative;
+  background: #464646 url(59H-from-gratisography.jpg) no-repeat center center fixed;
+  background-size: cover;
+ }
+.description, .some-related-articles {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.description {
+  padding-top: 100px;
+  min-height: 250px;
+  text-align: center;
+}
+.some-related-articles {
+  color: #747474;
+}
+.some-related-articles h1 {
+  color: #384e56;
+  margin-top: 60px;
+  text-transform: uppercase;
+}
+.some-related-articles h2 a:link, .some-related-articles h2 a:visited  {
+  color: #464646;
+  transition: color 0.1s ease;
+}
+.some-related-articles h2 a:hover {
+  color: #000000;
+  transition: color 0.3s ease;
+}
+/* SPECIAL */
+.summary {
+  color: #d9dee2;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.button, .button:visited, .button-dark {
+  display: inline-block;
+  max-width: 200px;
+  margin: 50px 10px 30px 10px;
+  padding: 10px;
+  font-family: "Signika", sans-serif;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  text-transform: capitalize;
+  text-align: center;
+  transition: all 0.1s ease;
+}
+.button-dark, .button-dark:visited {
+  margin: 20px 10px 30px 0;
+  color: #464646;
+  border-color: #464646;
+
+}
+.button:hover, .button-dark:hover {
+  transition: all 0.3s ease;
+}
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.button-dark:hover {
+  color: #ffffff;
+  background-color: rgba(70, 70, 70, 0.9);
+}
